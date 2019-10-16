@@ -3,7 +3,7 @@
 [![Test Coverage](https://codeclimate.com/github/AthensFramework/encryption/badges/coverage.svg)](https://codeclimate.com/github/AthensFramework/encryption/coverage)
 [![Latest Stable Version](https://poser.pugx.org/Athens/Encryption/v/stable)](https://packagist.org/packages/Athens/Encryption)
 
-Athens\Encryption
+chybaDapi\Encryption (a fork of Athens\Encryption)
 =============
 
 Seamlessly encrypt/decrypt Propel2 data fields. This library is a *plugin* for the [Propel2 ORM framework](http://propelorm.org/).
@@ -64,7 +64,7 @@ This library is published on packagist. To install using Composer, add the `"Ath
 ```
 {
     "require": {
-        "Athens/Encryption": ">=0.1"
+        "chybaDapi/Encryption": ">=0.1"
     }
 }
 ```
@@ -113,7 +113,7 @@ Remember that search/find and sort are now *broken* for `MySecretData` and `MySe
 Compatibility
 =============
 
-* PHP 5.5, 5.6, 7.0
+* PHP 5.5, 5.6, 7.X
 * Propel2
 
 Todo
