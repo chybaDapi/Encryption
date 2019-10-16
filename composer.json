@@ -1,5 +1,5 @@
 {
-  "name": "athens/encryption",
+  "name": "chybaDapi/encryption",
   "description": "Propel Behavior for seamless encryption/decryption of data columns",
   "autoload": {
     "classmap": [
