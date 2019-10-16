@@ -37,7 +37,7 @@ class Cipher
      */
     public function encrypt($string)
     {
-        $iv = mcrypt_create_iv(self::IV_SIZE, MCRYPT_RAND);
+        $iv = openssl_random_pseudo_bytes(self::IV_SIZE);
         return $this->doEncrypt($string, $iv);
     }
 
