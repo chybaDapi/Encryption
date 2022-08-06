@@ -20,9 +20,9 @@ class EncryptionBehavior extends Behavior
     /**
      * Multiple encrypted columns in the same table is OK.
      *
-     * @return boolean
+     * @return bool
      */
-    public function allowMultiple()
+    public function allowMultiple(): bool
     {
         return true;
     }
